@@ -1,0 +1,165 @@
+.sendMessage{
+    width: 100%;
+    height: 370px;
+    position: fixed;
+    display: none;
+    bottom: -370px;
+    padding: 25px;
+    background-color: #171717;
+    border-radius: 15px 15px 0px 0px;
+    z-index: 50;
+}
+.sendMessage span{
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.yourName, .yourEmail, .yourMessage{
+    position: relative;
+    width: 100%;
+    background-color: #171717;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 3px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    height: 35px;
+}
+.yourMessage{
+    height: 50px;
+}
+.bxx{
+    margin-bottom: 5px;
+}
+.smBtn1{
+    position: absolute;
+    width: 200px;
+    height: 32px;
+    background: rgba(9,230,54,0.5);
+    border-radius: 15px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.smBtn1 input{
+    position: relative;
+    color: #fff!important;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    top: 3px;
+    cursor: pointer;
+}
+.b1 {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 28px;
+}
+.tick{
+    width: 100%;
+    height: 370px;
+    position: fixed;
+    display: none;
+    bottom: -370px;
+    padding: 25px;
+    background-color: #171717;
+    border-radius: 15px 15px 0px 0px;
+    z-index: 100;
+}
+.tick img{
+    position: relative;
+    width: 45%;
+    height: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 80px;
+    z-index: 100;
+}
+.grey{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: none;
+    top: 0px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.cross{
+    display: inline-block;
+    right: 20px;
+    top: 20px;
+    position: absolute;   
+}
+.cross i{
+    color: rgba(9, 230, 54, 0.69);
+    font-size: 20px;
+}
+
+@media (min-width: 700px){
+    .sendMessage{
+        width: 360px;
+        left: 50%;
+        margin-bottom: 17vh;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .tick{
+        width: 360px;
+        left: 50%;
+        margin-bottom: 17vh;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .grey{
+        width: 360px;
+        height: 560px;
+        border-radius: 10px;
+        left: 50%;
+        margin-bottom: 17.5vh;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        top: 58px;
+    }
+    .cross{
+        display: inline-block;
+        right: 20px;
+        top: 20px;
+        position: fixed;   
+    }
+}
+.error {
+    color: red!important;
+}

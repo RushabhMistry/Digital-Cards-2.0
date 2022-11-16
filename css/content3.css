@@ -1,0 +1,129 @@
+.bx {
+    position: relative;
+    display: flex;
+    overflow: scroll;
+    width: 95%;
+    height: auto;
+    left: 50%;
+    top: 30px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: #171717;
+    -webkit-box-shadow: -2px -2px 6px rgba(9, 230, 54, 0.4), 2px 2px 6px rgba(9, 230, 54, 0.2);
+    -moz-box-shadow: -2px -2px 6px rgba(9, 230, 54, 0.4), 2px 2px 6px rgba(9, 230, 54, 0.2);
+    -o-box-shadow: -2px -2px 6px rgba(9, 230, 54, 0.4), 2px 2px 6px rgba(9, 230, 54, 0.2);
+    box-shadow: -2px -2px 6px rgba(9, 230, 54, 0.4), 2px 2px 6px rgba(9, 230, 54, 0.2);
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.bx::-webkit-scrollbar {
+    display: none;
+}
+
+/* .bxAdd {
+    position: relative;
+    width: 95%;
+    display: flex;
+    height: auto;
+    overflow: hidden;
+    left: 50%;
+    top: 30px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: #171717;
+    -webkit-box-shadow: -2px -2px 6px rgba(9, 230, 54, 0.4), 2px 2px 6px rgba(9, 230, 54, 0.2);
+    -moz-box-shadow: -2px -2px 6px rgba(9, 230, 54, 0.4), 2px 2px 6px rgba(9, 230, 54, 0.2);
+    -o-box-shadow: -2px -2px 6px rgba(9, 230, 54, 0.4), 2px 2px 6px rgba(9, 230, 54, 0.2);
+    box-shadow: -2px -2px 6px rgba(9, 230, 54, 0.4), 2px 2px 6px rgba(9, 230, 54, 0.2);
+    border-radius: 10px;
+    margin-bottom: 12px;
+} */
+
+.lft {
+    position: relative;
+    padding: 15px;
+    color: #09E636;
+    font-size: 20px;
+}
+
+.location {
+    /* float: right; */
+    display: inline-block;
+    position: absolute;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    width: 80%;
+    left: 50px;
+    top: 8px;
+    max-height: 80px;
+}
+
+.mobNo {
+    float: right;
+    position: absolute;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    top: 17px;
+    left: 50px;
+}
+
+.callBtn {
+    display: inline-block;
+    position: absolute;
+    right: 8px;
+    border: 1px solid #09E636;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 2px 5px;
+    top: 8px;
+
+}
+
+.noText {
+    text-decoration: none !important;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #09E636;
+}
+
+.websiteText {
+    float: right;
+    position: absolute;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    top: 17px;
+    left: 50px;
+}
+
+.mailText {
+    float: right;
+    position: absolute;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    top: 17px;
+    left: 50px;
+}

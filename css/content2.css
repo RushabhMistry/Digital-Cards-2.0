@@ -1,0 +1,57 @@
+.smRow1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.smRow1 > a {
+    width: 60px;
+    margin: 7% 7% 0% 7%;
+    text-align: center;
+    height: 60px;
+    font-size: 30px;
+    color: #09E636;
+    background: #171717;
+    border: 1px solid rgba(9, 230, 54, 0.4);
+    box-sizing: border-box;
+    -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25), -2px -2px 6px rgba(9, 230, 54, 0.4);
+    -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25), -2px -2px 6px rgba(9, 230, 54, 0.4);
+    -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25), -2px -2px 6px rgba(9, 230, 54, 0.4);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25), -2px -2px 6px rgba(9, 230, 54, 0.4);
+    border-radius: 50%;
+    padding: 5px;
+}
+.smBtn{
+    position: relative;
+    width: 150px;
+    height: 32px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 35px;
+    background: #171717;
+    border-radius: 98px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25), -2px -2px 6px rgba(9, 230, 54, 0.4);
+    -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25), -2px -2px 6px rgba(9, 230, 54, 0.4);
+    -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25), -2px -2px 6px rgba(9, 230, 54, 0.4);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25), -2px -2px 6px rgba(9, 230, 54, 0.4);
+    border: 1px solid rgba(9, 230, 54, 0.4);
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.smBtn:hover {
+   cursor: pointer; 
+}
+.smBtnText{
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #09E636;
+}

@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none!important;
+}
+body{
+    overflow-y: scroll!important;
+}
+.bg{
+    width: 100%;
+}
+.cont1{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.circle{
+    position: absolute;
+    width: 200%;
+    right: -50%;
+    height: 1000px;
+    top: -155%;
+    background: rgba(9, 230, 54, 0.39);
+    border-radius: 50%;
+}
+.logo{
+    position: absolute;
+    z-index: 10;
+    width: 40%;
+    top: 15px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.screen{
+    position: absolute;
+    width: 360px;
+    height: 560px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 57px;
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+    border-radius: 10px;
+    background-color: #171717;
+    overflow-x: hidden;
+}
+.screen::-webkit-scrollbar {
+    display: none;
+}
+.tablet{
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    overflow: auto;
+    
+}
+.tabb{
+    width: 400px;
+    height: 645px;
+}
+.whatsapp{
+    display: inline-block;
+    position: fixed;
+    top: 570px;
+    right: 0px;
+    left: 59%;
+    height: 40px;
+    width: 40px;
+    z-index: 1;
+}
+.whatsapp2{
+    display: none;
+}
+
+@media (max-width: 700px){
+    .cont1{
+        transform: none;
+        left: 0px;
+        width: 100vw;
+    }
+    .screen{
+        border-radius: 0px;
+        width: 100vw;
+        height: 100vh;
+        top: 0px;
+    }
+    .tablet{
+        display: none;
+    }
+    .bdr{
+        width: 90vw!important;
+    }
+    .content1{
+        width: 90vw!important;
+        margin-right: 3.65%!important;
+    }
+    .content2{
+        width: 90vw!important;
+        margin-right: 3%!important;
+    }
+    .content3{
+        width: 90vw!important;
+        margin-right: 3%!important;
+    }
+    .ytVideo{
+        width: 90vw!important;
+    }
+    .whatsapp{
+        display: none;
+    }
+    .whatsapp2{
+        display: block;
+        position: fixed;
+        display: inline-block;
+        position: fixed;
+        bottom: 5px;
+        right: 5px;
+        height: 40px;
+        width: 40px;
+        z-index: 10000;
+    }
+}
+@media (min-width: 700px){
+    .whatsapp{
+        bottom: 9vw;
+        right: 38vw;
+    }
+}
